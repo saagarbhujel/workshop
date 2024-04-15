@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './components/card/Card'
+import HookStudy from './components/HookStudy/HookStudy'
+import FetchStudy from './components/FecthStudy/FetchStudy'
 
 
 const datas = [
@@ -34,7 +36,9 @@ function App() {
 
   return (
     <>
-    <Card data={datas} />
+    {/* <Card data={datas} /> */}
+    {/* <HookStudy/> */}
+    <FetchStudy/>
     </>
   )
 }
